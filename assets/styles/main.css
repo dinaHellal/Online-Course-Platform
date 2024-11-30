@@ -104,3 +104,35 @@ header .container  input {
     display: flex;
   }
 }
+.online-course{
+  background-image: url(../images/hero.webp);
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+}
+.online-course .container {
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+  height: calc(100vh - 98px);
+  padding-bottom: 50px;
+}
+.online-course h1 {
+  font-size: 45px;
+  font-weight: 500;
+}
+.online-course div {
+  display: flex;
+  gap: 40px;
+}
+.online-course div a {
+  display: block;
+  text-align: center;
+  width: 171px;
+  padding: 20px;
+  font-weight: 500;
+  font-size: 20px;
+  color: var(--black);
+  background-color: var(--white);
+  border-radius: 50px;
+}

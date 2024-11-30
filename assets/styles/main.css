@@ -136,3 +136,10 @@ header .container  input {
   background-color: var(--white);
   border-radius: 50px;
 }
+.banner {
+  padding-top: 170px;
+}
+.banner img {
+  width: 100%;
+  border-radius: 50px;
+}

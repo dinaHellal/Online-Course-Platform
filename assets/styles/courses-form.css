@@ -6,6 +6,9 @@
 :root {
   --black: #000000;
   --white: #ffffff;
+  --gainsboro:#DBDBDB;
+  --bright-gray: #e5e7eb;
+  --bleu-de-france:#2D8DD5;
 }
 a {
   text-decoration: none;
@@ -30,5 +33,65 @@ ul {
 @media (min-width: 1200px) {
   .container {
     width: 1170px;
+  }
+}
+header {
+  position: relative;
+  border: 1px solid var(--gainsboro);
+  padding: 15px 0;
+}
+header .container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+header  img {
+  width: 20px;
+  margin-right: 20px;
+}
+header .container  a {
+  font-family: "Roboto", sans-serif;
+  font-size: 28px;
+  font-weight: 500;
+  color: var(--black);
+}
+header .container  ul {
+  display: flex;
+  align-items: center;
+  gap: 40px;
+}
+header .container  ul li a {
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  color: var(--black);
+}
+header .container  input {
+  appearance: none;
+}
+@media (max-width: 991px) {
+  header .container  ul {
+    display: none;
+    position: absolute;
+    top: 80px;
+    right: 0;
+    padding: 10px;
+    background-color: var(--white);
+    border: 1px solid rgb(0 0 0 / 0.1);
+  }
+  header .container ul li {
+    padding: 10px 0;
+    border-bottom: 1px solid rgb(0 0 0 / 0.1);
+  }
+  header .container input:checked + ul {
+    display: block;
+  }
+}
+@media (min-width: 992px) {
+  header .container .menu {
+    display: none;
+  }
+  header .container ul {
+    display: flex;
   }
 }

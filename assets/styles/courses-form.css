@@ -95,3 +95,43 @@ header .container  input {
     display: flex;
   }
 }
+.personal-info h1{
+  font-family: 'Roboto';
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 48px;
+  text-align: center;
+  margin-bottom: 30px;
+}
+.personal-info form{
+  display: flex;
+  flex-wrap: wrap;
+gap: 100px;
+margin-bottom: 40px;
+}
+.personal-info form label{
+  font-family: 'Roboto';
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 20px;
+  margin-bottom: 15px;
+}
+.personal-info form input{
+  width: 500px;
+  height: 36px;
+  padding: 8px 12px;
+  border: 1px solid var(--gainsboro);
+  border-radius: 6px;
+  margin-bottom: 10px;
+}
+form .gander input{
+width: 64px;
+margin-left: 10px;
+}
+form  .submit{
+  background-color: var(--black);
+  color: var(--white);
+  margin-top: 80px;
+  width: 240px;
+  flex-wrap: wrap;
+}

@@ -95,7 +95,7 @@ header .container  input {
     display: flex;
   }
 }
-.personal-info h1{
+h1{
   font-family: 'Roboto';
   font-weight: 700;
   font-size: 40px;
@@ -103,20 +103,20 @@ header .container  input {
   text-align: center;
   margin-bottom: 30px;
 }
-.personal-info form{
+form{ 
   display: flex;
   flex-wrap: wrap;
 gap: 100px;
 margin-bottom: 40px;
 }
-.personal-info form label{
+form label{ 
   font-family: 'Roboto';
   font-weight: 500;
   font-size: 14px;
   line-height: 20px;
   margin-bottom: 15px;
 }
-.personal-info form input{
+form input{
   width: 500px;
   height: 36px;
   padding: 8px 12px;
@@ -127,11 +127,79 @@ margin-bottom: 40px;
 form .gander input{
 width: 64px;
 margin-left: 10px;
+margin-bottom: 40px;
 }
 form  .submit{
+  display: flex;
+  justify-content: center;
+  padding-top: 50px;
+}
+form .submit{
   background-color: var(--black);
   color: var(--white);
-  margin-top: 80px;
   width: 240px;
+  border: none;
+  border-radius: 8px;
+  font-size: 16px;
+  font-weight: 500;
+  padding: 12px;
+  margin-top: 70px;
+}
+.courses-selection form {
+  display: flex;
   flex-wrap: wrap;
 }
+.courses-selection h2{
+  font-family: 'Roboto';
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 48px;
+  text-align: center;
+  margin-bottom: 40px;
+}
+.courses-selection form .gander {
+  width: 75px;
+  margin-left: 20px;
+  margin-bottom: 60px;
+  }
+  .courses-selection form input{
+    width: 75px;
+  }
+  .courses-selection form .start-date input{
+    width: 500px;
+    height: 36px;
+    padding: 8px 12px;
+    border: 1px solid var(--gainsboro);
+    border-radius: 6px;
+    margin-left: 100px;
+  }
+  .courses-selection .start-date label{
+    margin-left: 90px;
+  }
+  .courses-selection form .submit-btn{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    margin-left: 270px;
+  }
+  .courses-selection form .submit{
+    background-color: var(--black);
+    color: var(--white);
+    width: 240px;
+    border: none;
+    border-radius: 8px;
+    font-size: 16px;
+    font-weight: 500;
+    padding: 12px;
+    margin-top: 0px;
+  }
+  .courses-selection form  .submit-back{
+background-color: var(--white);
+    color: var(--black);
+    width: 240px;
+    border: 1px solid var(--black);
+    border-radius: 8px;
+    font-size: 16px;
+    font-weight: 500;
+    padding: 12px;
+  }
